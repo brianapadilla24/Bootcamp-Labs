@@ -1,0 +1,6 @@
+Tue Apr 30 08:50:11 CDT 2024
+1	Dior Lipgloss (MU3801) -- 15.99 -- Beauty
+1	Retro Handheld Arcade (GM1148) -- 24.45 -- Games
+Total: 40.44
+Amount paid: 50.0
+Change given: 9.560000000000002
