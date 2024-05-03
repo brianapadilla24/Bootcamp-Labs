@@ -1,162 +1,15 @@
-//package org.example;
-//import java.util.List;
-//import java.util.ArrayList;
-//
-//
-//class Book {
-//    private int ID;
-//    private String isbn;
-//    private String title;
-//    private boolean isCheckOut;
-//    private String checkOutTo;
-//
-//
-//public Book(int ID, String isbn, String title) {
-//    this.ID = ID;
-//    this.isbn = isbn;
-//    this.title = title;
-//    this.isCheckOut = false;
-//    this.checkOutTo = "";
-//}
-//
-////Getters and Setters
-//
-//public int getID() {
-//    return ID;
-//}
-//
-//public String getIsbn() {
-//    return isbn;
-//}
-//
-//public String getTitle() {
-//    return title;
-//}
-//
-//public boolean isCheckOut() {
-//    return isCheckOut;
-//}
-//
-//public String getCheckOutTo(){
-//    return checkOutTo;
-//}
-//
-////Method to check in
-//public void checkOut (String name) {
-//    if (!isCheckOut) {
-//        isCheckOut = true;
-//        checkOutTo = name;
-//        System.out.println(title + "has been checked out to" + name);
-//    } else {
-//        System.out.println(title + "is already checkout out.");
-//} }
-//
-//    //method to check in a book
-//public void checkIn() {
-//    if (isCheckOut) {
-//        isCheckOut = false;
-//        checkOutTo = "";
-//        System.out.println(title + " has been checked in.");
-//    } else {
-//        System.out.println(title + " is already checked in.");
-//    }
-//}
-//
-//public class neighborhoodLibrary {
-//     private static List<Book> books = new ArrayList<>();
-//
-//     public static void main(String[] args) {
-//
-//
-//         Scanner scanner = new Scanner(System.in);
-//         boolean running = true;
-//
-//         while (running) {
-//             System.out.println("Welcome to the library!");
-//             System.out.println("1. Show available books");
-//             System.out.println("2. Show checked out books");
-//             System.out.println("3. Exit");
-//             System.out.println("Select an option: ");
-//             int choice = scanner.nextInt();
-//
-//             switch (choice) {
-//                 case 1:
-//                     showAvailableBooks();
-//                     break;
-//                 case 2:
-//                     showCheckedOutBooks();
-//                 case 3:
-//                     running = false;
-//                     break;
-//                 default:
-//                     System.out.println("Invalid choice. Please try again.")  ;
-//             }
-//
-//         }
-//     }
-//
-//     private static void initializeLibrary() {
-//         books.add(new Book(1, "8177272727", "The Great Gatsby"));
-//         books.add(new Book(2, "2918301290", "Hunger Games"));
-//         books.add(new Book (3, "10380193", "To kill a mocking bird"));
-//     }
-//
-//     private static void showAvailableBooks() {
-//         System.out.println("Available Books: ");
-//         for (Book book : books) {
-//             if (!book.isCheckOut()) {
-//                 System.out.println("ID: " + book.getID() + ", ISBN: " + book.getIsbn() + ", Title: " + book.getTitle());
-//             }
-//         }
-//
-//         Scanner scanner = new Scanner(System.in);
-//         System.out.println("Checked Out Books: ");
-//         for (Book book : books) {
-//             if (book.isCheckOut()) {
-//                 System.out.println("ID: " + books.getID() + ", ISBN: " + books.getIsbn() + ", Title: " + books.getTitle() + ", Checked Out To: " + books.getCheckedOutTo());
-//             }
-//         }
-//
-//         System.out.println("C - Check in a book");
-//         System.out.println("X - Go back to the home screen");
-//
-//         Scanner scanner = new Scanner(System.in);
-//         System.out.print("Enter your choice: ");
-//         String choice = scanner.nextLine().toUpperCase();
-//         if (choice.equals("C")) {
-//             System.out.print("Enter the ID of the book you want to check in: ");
-//             int bookID = scanner.nextInt();
-//             checkInBook(bookID);
-//     }
-//}
-//
-//    private static void checkoutBook(int bookID, String name) {
-//        for (Book book : books) {
-//            if (book.getID() == bookID && !book.isCheckedOut()) {
-//                book.checkOut(name);
-//                return;
-//            }
-//        }
-//        System.out.println("Invalid book ID or the book is already checked out.");
-//    }
-//    private static void checkInBook(int bookID) {
-//        for (Book book : books) {
-//            if (book.getID() == bookID && book.isCheckedOut()) {
-//                book.checkIn();
-//                return;
-//            }
-//        }
-//        System.out.println("Invalid book ID or the book is already checked in.");
-//    }
-//
-//}
 
 package org.example;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+
+//class
 class Book {
+
+    //Id, isbn, title
+    //checcked in or out
     private int ID;
     private String isbn;
     private String title;
@@ -214,6 +67,8 @@ class Book {
         }
     }
 }
+
+//neighborhood library class
 
 public class NeighborhoodLibrary {
     private static List<Book> books = new ArrayList<>();
