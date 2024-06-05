@@ -1,0 +1,20 @@
+⋆｡‧˚ʚ🍓ɞ˚‧｡⋆    Welcome to DELI's Deli    ⋆｡‧˚ʚ🍓ɞ˚‧｡⋆
+Bread: WHEAT
+BreadSize: FOUR_INCH Price: 5.50
+Meat: STEAK
+ExtraMeat: true price: 0.50
+Cheese: AMERICAN
+ExtraCheese: true price: 0.30
+Toppings: [LETTUCE, PEPPERS]
+Sauce: [MAYO]
+Side: SAUCE
+isToasted: true
+TotalSandwichPrice: 6.30
+━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━
+Drink Size: SMALL
+Price: 2.0
+━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━━━━━⊱⋆⊰━━━━
+Total Sandwich Price: 6.30
+Total Drink Price: 2.00
+Total Chips Price: 0.00
+Checkout Total: 8.30
